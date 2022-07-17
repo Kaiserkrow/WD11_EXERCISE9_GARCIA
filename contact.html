@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Start of side bar, position absolute to remove sidebar from document flow-->
+    <div>
+      <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          ><span class="red">×</span></a
+        >
+        <main class="d-flex flex-column">
+          <div>
+            <a href="WD11_EXERCISE9_GARCIA.html">
+              <img src="img/icon/logo.jpg" class="w-logo" />
+            </a>
+          </div>
+
+          <div>
+            <ul class="hyperlinks mt-md-5">
+              <li class="p-md-3">
+                <a href="about.html" class="links">About</a>
+              </li>
+              <li class="p-md-3">
+                <a href="skills.html" class="links">My Skills</a>
+              </li>
+              <li class="p-md-3"><a href="#" class="links">Work</a></li>
+              <li class="p-md-3">
+                <a href="contact.html" class="links">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="mt-5">
+            <ul class="d-flex justify-content-center mt-md-5 social-container">
+              <li>
+                <a href="" class="p-2">
+                  <img src="img/icon/fb.png" class="socials" />
+                </a>
+              </li>
+              <li>
+                <a href="" class="p-2">
+                  <img src="img/icon/twitter.png" class="socials" />
+                </a>
+              </li>
+              <li>
+                <a href="" class="p-2">
+                  <img src="img/icon/linkedin.png" class="socials" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </main>
+      </div>
+
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">☰</button>
+      </div>
+    </div>
+    <!--End of sidebar-->
+
+    <div id="contact-container">
+      <div class="row">
+        <div class="col-lg-7">
+          <h1><span class="title fw-bold red">Contact me</span></h1>
+          <p class="mt-4">
+            I’m interested in freelance opportunities – especially ambitious or
+            large projects. However, if you have other request or question,
+            don’t hesitate to use the form.
+          </p>
+          <form action="" class="me-4">
+            <div class="row">
+              <div class="col-md-6 mt-3">
+                <input
+                  type="text"
+                  placeholder="Name"
+                  class="w-100 bg-dark border-0 indent p-3 text-white"
+                  required
+                />
+              </div>
+              <div class="col-md-6 mt-3">
+                <input
+                  type="text"
+                  placeholder="Email"
+                  class="w-100 bg-dark border-0 indent p-3 text-white"
+                  required
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <input
+                  type="text"
+                  placeholder="Subject"
+                  class="w-100 bg-dark border-0 indent p-3 mt-3 text-white"
+                  required
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <textarea
+                  type="text"
+                  placeholder="Message"
+                  class="w-100 bg-dark border-0 indent p-3 mt-3 text-white"
+                  rows="6"
+                  required
+                ></textarea>
+              </div>
+            </div>
+            <button class="button h5">
+              <a href="contact.html">Send Message!</a>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="js/bootstrap.bundle.js"></script>
+  <script src="index.js"></script>
+</html>
